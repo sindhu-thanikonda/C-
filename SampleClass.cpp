@@ -19,7 +19,7 @@ int main()
 {
   Sample s1;
   float final;
-  final = s1.add(5,4);
+  final = s1.add(5,4); // Calling Sample Class add() 
   cout << "Total Sum: " << final << endl;
   return 0;
 }
