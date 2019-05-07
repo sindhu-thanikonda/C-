@@ -17,7 +17,7 @@ public:
 
 int main()
 {
-  Sample s1;
+  Sample s1; // Creating Object Reference to Sample Class as S1 
   float final;
   final = s1.add(5,4); // Calling Sample Class add() 
   cout << "Total Sum: " << final << endl;
